@@ -1,5 +1,5 @@
-# Multithreading_in_Python
-We Use Multithreading Process
+# Multithreading in Python
+
 
 
 Running several threads is similar to running several different programs concurrently, but with the following benefits −

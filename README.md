@@ -51,3 +51,27 @@ Override the __init__(self [,args]) method to add additional arguments.
 Then, override the run(self [,args]) method to implement what the thread should do when started.
 
 Once you have created the new Thread subclass, you can create an instance of it and then start a new thread by invoking the start(), which in turn calls run() method.
+
+# Synchronizing Threads
+The threading module provided with Python includes a simple-to-implement locking mechanism that allows you to synchronize threads. A new lock is created by calling the Lock() method, which returns the new lock.
+
+The acquire(blocking) method of the new lock object is used to force threads to run synchronously. The optional blocking parameter enables you to control whether the thread waits to acquire the lock.
+
+If blocking is set to 0, the thread returns immediately with a 0 value if the lock cannot be acquired and with a 1 if the lock was acquired. If blocking is set to 1, the thread blocks and wait for the lock to be released.
+
+The release() method of the new lock object is used to release the lock when it is no longer required.
+
+# Multithreaded Priority Queue
+The Queue module allows you to create a new queue object that can hold a specific number of items. There are following methods to control the Queue −
+
+* get() − The get() removes and returns an item from the queue.
+
+* put() − The put adds item to a queue.
+
+* qsize() − The qsize() returns the number of items that are currently in the queue.
+
+* empty() − The empty( ) returns True if queue is empty; otherwise, False.
+
+* full() − the full() returns True if queue is full; otherwise, Fal
+
+

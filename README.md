@@ -114,7 +114,7 @@ public final void join() throws InterruptedException
 
 // waits at most this much milliseconds for this thread to die<br>
 public final void join(long millis) <br>
-              throws InterruptedException<br>
+              <pre>throws InterruptedException</pre><br>
 
 // waits at most milliseconds plus nanoseconds for this thread to die.<br>
 The java.lang.Thread.join(long millis, int nanos)<br>

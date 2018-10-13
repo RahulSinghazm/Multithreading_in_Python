@@ -103,3 +103,17 @@ The Queue module allows you to create a new queue object that can hold a specifi
 * full() − the full() returns True if queue is full; otherwise, Fal
 
 
+# join():
+The join() method of a Thread instance is used to join the start of a thread’s execution to end of other thread’s execution such that a thread does not start running until another thread ends. If join() is called on a Thread instance, the currently running thread will block until the Thread instance has finished executing.
+The join() method waits at most this much milliseconds for this thread to die. A timeout of 0 means to wait forever
+
+* Syntax:
+// waits for this thread to die.
+public final void join() throws InterruptedException
+
+// waits at most this much milliseconds for this thread to die
+public final void join(long millis) 
+              throws InterruptedException
+
+// waits at most milliseconds plus nanoseconds for this thread to die.
+The java.lang.Thread.join(long millis, int nanos)

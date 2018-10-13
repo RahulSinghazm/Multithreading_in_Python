@@ -108,12 +108,13 @@ The join() method of a Thread instance is used to join the start of a thread’s
 The join() method waits at most this much milliseconds for this thread to die. A timeout of 0 means to wait forever
 
 * Syntax:
-// waits for this thread to die.
+
+// waits for this thread to die.<br>
 public final void join() throws InterruptedException
 
-// waits at most this much milliseconds for this thread to die
-public final void join(long millis) 
-              throws InterruptedException
+// waits at most this much milliseconds for this thread to die<br>
+public final void join(long millis) <br>
+              throws InterruptedException<br>
 
-// waits at most milliseconds plus nanoseconds for this thread to die.
-The java.lang.Thread.join(long millis, int nanos)
+// waits at most milliseconds plus nanoseconds for this thread to die.<br>
+The java.lang.Thread.join(long millis, int nanos)<br>

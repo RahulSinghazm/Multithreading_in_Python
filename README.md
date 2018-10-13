@@ -35,7 +35,7 @@ In simple words, a thread is a sequence of such instructions within a program th
 
 A thread contains all this information in a  Thread Control Block (TCB):
 
-* <ui><h3>Thread Identifier:</h3></ui> Unique id (TID) is assigned to every new thread
+* Thread Identifier: Unique id (TID) is assigned to every new thread
 * Stack pointer: Points to thread’s stack in the process. Stack contains the local variables under thread’s scope.
 * Program counter: a register which stores the address of the instruction currently being executed by thread.
 * Thread state: can be running, ready, waiting, start or done.

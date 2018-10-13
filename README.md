@@ -15,7 +15,7 @@ It can be pre-empted (interrupted)
 It can temporarily be put on hold (also known as sleeping) while other threads are running - this is called yielding.
 
 
-# Multithreading in Python | Set 1
+# Multithreading in Python
 This article covers the basics of multithreading in Python programming language. Just like multiprocessing, multithreading is a way of achieving multitasking. In multithreading, the concept of threads is used.
 
 Let us first understand the concept of thread in computer architecture.
@@ -33,7 +33,14 @@ A thread is an entity within a process that can be scheduled for execution. Also
 
 In simple words, a thread is a sequence of such instructions within a program that can be executed independently of other code. For simplicity, you can assume that a thread is simply a subset of a process!
 
-A thread contains all this information in a * Thread Control Block (TCB):
+A thread contains all this information in a  Thread Control Block (TCB):
+
+* Thread Identifier: Unique id (TID) is assigned to every new thread
+* Stack pointer: Points to thread’s stack in the process. Stack contains the local variables under thread’s scope.
+* Program counter: a register which stores the address of the instruction currently being executed by thread.
+* Thread state: can be running, ready, waiting, start or done.
+* Thread’s register set: registers assigned to thread for computations.
+* Parent process Pointer: A pointer to the Process control block (PCB) of the process that the thread lives on.
 
 
 

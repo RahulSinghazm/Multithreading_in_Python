@@ -15,6 +15,27 @@ It can be pre-empted (interrupted)
 It can temporarily be put on hold (also known as sleeping) while other threads are running - this is called yielding.
 
 
+# Multithreading in Python | Set 1
+This article covers the basics of multithreading in Python programming language. Just like multiprocessing, multithreading is a way of achieving multitasking. In multithreading, the concept of threads is used.
+
+Let us first understand the concept of thread in computer architecture.
+
+Thread
+
+In computing, a process is an instance of a computer program that is being executed. Any process has 3 basic components:
+
+* An executable program.
+* The associated data needed by the program (variables, work space, buffers, etc.)
+* The execution context of the program (State of process)
+A thread is an entity within a process that can be scheduled for execution. Also, it is the smallest unit of processing that can be performed in an OS (Operating System).
+
+
+
+In simple words, a thread is a sequence of such instructions within a program that can be executed independently of other code. For simplicity, you can assume that a thread is simply a subset of a process!
+
+A thread contains all this information in a * Thread Control Block (TCB):
+
+
 
 # The Threading Module
 The newer threading module included with Python 2.4 provides much more powerful, high-level support for threads than the thread module discussed in the previous section.

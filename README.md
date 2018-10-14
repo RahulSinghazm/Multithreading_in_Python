@@ -44,7 +44,7 @@ A thread contains all this information in a  Thread Control Block (TCB):
 
 
 
-# The Threading Module
+# The Threading Module:
 The newer threading module included with Python 2.4 provides much more powerful, high-level support for threads than the thread module discussed in the previous section.
 
 The threading module exposes all the methods of the thread module and provides some additional methods −

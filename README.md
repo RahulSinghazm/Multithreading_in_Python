@@ -15,8 +15,7 @@ It can be pre-empted (interrupted)
 It can temporarily be put on hold (also known as sleeping) while other threads are running - this is called yielding.
 
 
-# Multithreading in Python:
-This article covers the basics of multithreading in Python programming language. Just like multiprocessing, multithreading is a way of achieving multitasking. In multithreading, the concept of threads is used.
+## @ This article covers the basics of multithreading in Python programming language. Just like multiprocessing, multithreading is a way of achieving multitasking. In multithreading, the concept of threads is used.
 
 Let us first understand the concept of thread in computer architecture.
 

@@ -5,7 +5,7 @@ class x (threading.Thread):
             print(i)
 class y(threading.Thread):
     def run(self):
-        for j in range(21,31):
+        for j in range(101,201):
             print(j)
 x1=x()
 x1.start()

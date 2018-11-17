@@ -106,7 +106,7 @@ The Queue module allows you to create a new queue object that can hold a specifi
 The join() method of a Thread instance is used to join the start of a thread’s execution to end of other thread’s execution such that a thread does not start running until another thread ends. If join() is called on a Thread instance, the currently running thread will block until the Thread instance has finished executing.
 The join() method waits at most this much milliseconds for this thread to die. A timeout of 0 means to wait forever
 
-* Syntax:
+# Syntax:
 
 // waits for this thread to die.<br>
 public final void join() throws InterruptedException
